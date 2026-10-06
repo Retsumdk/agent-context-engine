@@ -20,6 +20,7 @@ const DEFAULTS: Config = {
   timeout: 30000,
   retries: 3,
 };
+const name = "agent-context-engine";
 
 function loadConfig(): Config {
   const cfgPath = join(process.cwd(), "config.json");
